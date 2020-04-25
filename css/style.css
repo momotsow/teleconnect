@@ -1,19 +1,3 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-Author E-mail: info@spondonit.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: Medicare Medical
-@Author: Naim LAsker
-@Developed By: Naim LAsker
-
-
-=====================================================================*/
 /*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
@@ -138,25 +122,15 @@ button:focus {
 /* Start Gradient Area css
 ============================================================================================ */
 .gradient-bg, #search_input_box, .header-top .header-top-right a:hover, .single_feature:nth-child(3), .single_department:hover, .single_course .course_content .course_meta .price, .testimonial_area .owl-thumb-item.active .overlay-grad, .testimonial_area .owl-thumb-item .overlay-grad:hover, .testimonial_area .owl-thumb-item .overlay-grad.active, .registration_area, .categories_post:hover .categories_details, .blog_right_sidebar .widget_title, .blog_right_sidebar .search_widget .input-group .form-control, .blog_right_sidebar .newsletter_widget .bbtns, .blog_right_sidebar .tag_cloud_widget ul li a:hover, .blog-pagination .page-item.active .page-link, .blog-pagination .page-link:hover, .comments-area .btn-reply:hover, .blog_btn:hover, .footer-area .footer-bottom .footer-social a:hover {
-  background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-  background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-  background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-  background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-  background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%); }
+  background: black}
 
 .gradient-bg2, .single_feature:nth-child(1), .single_course .course_content .course_meta .price.df_color1 {
-  background: -webkit-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
-  background: -moz-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
-  background: -ms-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
-  background: -o-linear-gradient(90deg, #e94086 0%, #e5925a 100%);
-  background: linear-gradient(90deg, #e94086 0%, #e5925a 100%); }
+  background: #6AA84E;
+}
 
 .gradient-bg3, .single_feature:nth-child(2), .single_course .course_content .course_meta .price.df_color2 {
-  background: -webkit-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
-  background: -moz-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
-  background: -ms-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
-  background: -o-linear-gradient(90deg, #7349cc 0%, #e163e4 100%);
-  background: linear-gradient(90deg, #7349cc 0%, #e163e4 100%); }
+  background: #FE9A00;
+}
 
 .gradient-color, .blog_details h2:hover {
   background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
@@ -3405,48 +3379,323 @@ h6 {
   
 }
 
-.item-1, 
-.item-2, 
-.item-3 {
-	position: absolute;
-  display: block;
-	top: 2em;
-  
-  width: 60%;
-  
-  font-size: 2em;
+.keep-touch {
+  padding: 140px 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background: #f4f5f9; }
+  .keep-touch h2 {
+    font: 600 36px/1 "Source Sans Pro";
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    color: #6a6a6a; }
+  .keep-touch p {
+    font: 400 14px/25px "Source Sans Pro";
+    margin-bottom: 0; }
+  .keep-touch--white {
+    background: #ffffff;
+    -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+    box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2);
+    padding: 100px;
+    text-align: left;
+    height: 100%;
+    border-radius: 4px; }
+    .keep-touch--white h4 {
+      font: 700 24px/1 "Source Sans Pro";
+      margin: 0 0 30px;
+      color: #3c88e7; }
+    .keep-touch--white p {
+      font: 400 18px "Open Sans";
+      margin: 0 0 70px; }
+      .keep-touch--white p:last-child {
+        margin-bottom: 0; }
+      .keep-touch--white p a {
+        color: #999999; }
+    .keep-touch--white input[type="text"], .keep-touch--white textarea {
+      width: 100%;
+      display: block;
+      border: 0;
+      border-bottom: 1px solid #e5e5e5;
+      margin-bottom: 15px;
+      font: 700 14px "Open Sans";
+      outline: none;
+      height: 50px;
+      color: #999999; }
+    .keep-touch--white textarea {
+      min-height: 130px; }
+    .keep-touch--white input[type="submit"] {
+      cursor: pointer;
+      margin-top: 30px; }
 
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
+      .footer-area {
+        padding: 30px;
+        background-color: white;
+        border-bottom: 5px solid #ffc900;
+    }
+
+    #services {
+      padding: 100px 0;
+      background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+      color: #fff;
+    }
+    #services .service-desc {
+      margin: 10px 10px 20px;
+    }
+    #services h2 {
+      color: #fff;
+    }
+    #services .section-title h2::after {
+      position: absolute;
+      content: "";
+      background: rgba(255,255,255,.3);
+      height: 4px;
+      width: 60px;
+      bottom: 0;
+      margin-left: -30px;
+      left: 50%;
+    }
+    #services i.fa {
+      font-size: 42px;
+      width: 120px;
+      height: 120px;
+      padding: 40px 0;
+      background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+      border-radius: 50%;
+      color: #fff;
+      box-shadow: 10px 10px 10px rgba(0,0,0,.05);
+    }
+    #services h3 {
+      font-weight: 500;
+      padding: 5px 0;
+      color: #fff;
+    }
+    #services p {
+      color: rgba(255,255,255,.75);
+    }
+    #services .service-desc {
+      margin-bottom: 40px;
+    }
+
+    /*====================================================
+                      WHAT WE DO
+======================================================*/
+
+.what-we-do {
+  padding: 110px 0;
 }
 
-.item-1{
-	animation-name: anim-1;
+.what-we-do h3 {
+  padding-top: 20px;
+  color: #fff;
+  font-weight: 700;
 }
 
-.item-2{
-	animation-name: anim-2;
+.what-we-do .heading-border-light {
+  background-color: #fff;
 }
 
-.item-3{
-	animation-name: anim-3;
+.what-we-do p {
+  color: #fff;
 }
 
-@keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
+.what-we-desc {
+  padding: 20px;
+  color: #fff;
 }
 
-@keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
+.what-we-desc i {
+  float: left;
+  font-size: 35px;
+  margin-right: 20px;
+  height: 95px;
+  line-height: 45px;
 }
 
-@keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
+.what-we-desc h6 {
+  height: 30px;
+  font-size: 18px;
+  line-height: 30px;
 }
+
+.what-we-desc p {
+  font-size: 14px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .what-we-desc i {
+      float: left;
+      font-size: 35px;
+      margin-right: 20px;
+      height: 125px;
+      line-height: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .what-we-do {
+      padding: 110px 50px;
+  }
+
+  .what-we-do .col-md-4 {
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%!important;
+  }
+}
+
+@media (max-width: 575px) {
+  .what-we-do .col-sm-6 {
+      -ms-flex: 0 0 80%;
+      flex: 0 0 80%;
+      max-width: 80%!important;
+      margin: auto;
+  }
+}
+
+@media (max-width: 575px) {
+  .what-we-do .col-sm-6 {
+      -ms-flex: 0 0 95%;
+      flex: 0 0 95%;
+      max-width: 95%!important;
+      margin: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .what-we-desc p {
+      font-size: 15px;
+  }
+}
+
+/*====================================================
+             SERVICE-HOME
+======================================================*/
+
+/* #service-h {
+  padding: 120px 0 50px;
+}
+
+.service-h-desc {
+  padding: 50px 10px 90px 60px;
+}
+
+.service-h-desc>h6 {
+  color: #2196f3;
+  font-weight: 700;
+}
+
+.service-himg {
+  background: #F0F0F0;
+  height: 475px;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.service-himg iframe {
+  height: 370px;
+  width: 130%;
+  margin: 50px -60px 70px 65px;
+  box-shadow: 3px 3px 8px 1px #505050;
+  border: 1px solid #2196f3;
+}
+
+.service-h-tab {
+  position: relative;
+  margin: 20px 0;
+}
+
+.service-h-tab .nav-tabs>a {
+  border-radius: 0;
+  width: 190px;
+  text-align: center;
+  height: 55px;
+  line-height: 40px;
+  border: 1px solid #ddd;
+}
+
+.service-h-tab .nav-tabs>a.active {
+  color: #fff;
+  border: 1px solid #2196f3;
+  background: #2196f3;
+}
+
+.service-h-tab .tab-content .tab-pane {
+  padding: 20px 20px 0px 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .service-himg {
+      background: #fff;
+      height: 475px;
+      margin: auto;
+  }
+
+  #service-h .col-md-6 {
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%!important;
+  }
+
+  .service-himg iframe {
+      height: 370px;
+      width: 100%;
+      margin: 50px auto 70px auto;
+      box-shadow: 3px 3px 8px 1px #505050;
+      border: 1px solid #2196f3;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .service-himg iframe {
+      height: 370px;
+      width: 100%;
+      box-shadow: 3px 3px 8px 1px #505050;
+      border: 1px solid #2196f3;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #service-h {
+      padding: 30px 0 0px;
+  }
+
+  .service-himg {
+      background: #fff;
+      height: 315px;
+      width: 100%;
+  }
+  .service-himg iframe {
+      height: 270px;
+      width: 100%;
+      margin: 50px auto 70px auto;
+      box-shadow: 3px 3px 8px 1px #505050;
+      border: 1px solid #2196f3;
+  }
+
+  .service-h-tab .nav-tabs>a {
+      border-radius: 0;
+      width: 100%;
+      text-align: center;
+      height: 55px;
+      line-height: 40px;
+      border: 1px solid #ddd;
+  }
+}
+
+@media (max-width: 420px) {
+  .service-himg iframe {
+      height: 200px;
+      width: 100%;
+      margin: 50px auto 70px auto;
+      box-shadow: 3px 3px 8px 1px #505050;
+      border: 1px solid #2196f3;
+  }
+
+  .service-h-desc {
+      padding: 50px 10px 90px 10px;
+  }
+} */

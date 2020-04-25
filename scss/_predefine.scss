@@ -58,19 +58,19 @@
 ============================================================================================ */
 
 .gradient-bg {
-    @include gradient(90deg, $primary-color 0%, $primary-color2 100%);
+    background-color: #6AA84E;
 }
 
 .gradient-bg2 {
-    @include gradient(90deg, #e94086 0%, #e5925a 100%);
+    background-color: #6AA84E;
 }
 
 .gradient-bg3 {
-    @include gradient(90deg, #7349cc 0%, #e163e4 100%);
+    background-color: #6AA84E;
 }
 
 .gradient-color {
-	@include gradient(90deg, $primary-color 0%, $primary-color2 100%);
+	background-color: #6AA84E;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -83,7 +83,7 @@
 
 .primary-btn {
 	display: inline-block;
-	@include gradient2(to right, $primary-color 0%, $primary-color2 51%, $primary-color 100%);
+	background-color: #6AA84E;
     background-size: 200% auto;
     padding: 0px 38px;
     color: #fff;
