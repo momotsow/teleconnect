@@ -407,6 +407,7 @@
 .single_fact {
   background: rgba(#fff, 0.1);
   padding: 40px;
+  display: flex;
   margin-bottom: 30px;
   border: 1px solid transparent;
   @include transition();
