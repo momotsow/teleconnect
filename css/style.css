@@ -3393,6 +3393,17 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
+.logo {
+  width: 100px;
+}
+.social a{
+    width: 90px;
+    display: inline-table;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+  
+}
 
 .item-1, 
 .item-2, 
