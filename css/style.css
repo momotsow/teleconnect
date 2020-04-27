@@ -11,10 +11,9 @@ body {
   line-height: 25px;
   font-size: 16px;
   overflow-x: hidden;
-  font-family: "Crimson Text", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #000; }
-
 h1,
 h2,
 h3,
@@ -127,18 +126,19 @@ button:focus {
 /* }  */
 
 .gradient-bg2, .single_feature:nth-child(1), .single_course .course_content .course_meta .price.df_color1 {
-  background: #6AA84E;
+  background: rgb(233, 233, 233);
+  /* color: rgb(67, 67, 67); */
 }
 
 .gradient-bg3, .single_feature:nth-child(2), .single_course .course_content .course_meta .price.df_color2 {
-  background: #FE9A00;
+  background: rgb(233, 233, 233);
 }
 .gradient-bg3, .single_feature:nth-child(3), .single_course .course_content .course_meta .price.df_color2 {
-  background: #6AA84E;
+  background: rgb(233, 233, 233);
 }
 
 .gradient-color, .blog_details h2:hover {
-  background: #FE9A00;
+  background: rgb(233, 233, 233);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -149,7 +149,7 @@ button:focus {
 
 .primary-btn {
   display: inline-block;
-  background: #FE9A00;
+  background: rgb(67, 67, 67);
   background-size: 200% auto;
   padding: 0px 38px;
   color: #fff;
@@ -159,7 +159,7 @@ button:focus {
   line-height: 50px;
   border-radius: 0px;
   outline: none !important;
-  box-shadow: 0px 20px 50px #6AA84E;
+  box-shadow: none;
   text-align: center;
   cursor: pointer;
   -webkit-transition: all 0.3s ease 0s;
@@ -390,7 +390,7 @@ button:focus {
   min-height: 780px;
   display: flex;
   position: relative;
-  background: linear-gradient(0deg, rgba(41, 39, 39, 0.4), rgba(0, 0, 0, 0.4)), url(../img/banner/web.jpg) no-repeat scroll center; }
+  background: rgb(67, 67, 67);}
   .home_banner_area .banner_inner {
     position: relative;
     z-index: 10;
@@ -502,7 +502,7 @@ button:focus {
       .blog_banner .banner_inner .blog_b_text h2 {
         font-size: 60px;
         font-weight: 500;
-        font-family: "Crimson Text", serif;
+        font-family: "Montserrat", sans-serif;
         line-height: 66px;
         margin-bottom: 15px; }
       .blog_banner .banner_inner .blog_b_text p {
@@ -551,7 +551,7 @@ button:focus {
         .banner_area .banner_inner .banner_content .page_link a {
           font-size: 14px;
           color: #fff;
-          font-family: "Crimson Text", serif;
+          font-family: "Montserrat", sans-serif;
           margin-right: 32px;
           position: relative;
           text-transform: uppercase; }
@@ -582,8 +582,8 @@ button:focus {
 .single_feature {
   position: relative;
   z-index: 1;
-  color: #ffffff;
-  padding: 45px; }
+  color: rgb(67, 67, 67);
+  padding: 22px; }
   @media (max-width: 480px) {
     .single_feature {
       padding: 40px 20px; } }
@@ -598,7 +598,7 @@ button:focus {
   .single_feature h4 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #ffffff; }
+    color: rgb(67, 67, 67); }
   .single_feature p {
     margin: 0; }
 
@@ -999,22 +999,22 @@ button:focus {
       color: #aaaaaa;
       font-size: 14px;
       font-weight: 500;
-      font-family: "Crimson Text", serif; }
+      font-family: "Montserrat", sans-serif; }
     .register_form input:-moz-placeholder {
       color: #aaaaaa;
       font-size: 14px;
       font-weight: 500;
-      font-family: "Crimson Text", serif; }
+      font-family: "Montserrat", sans-serif; }
     .register_form input::-moz-placeholder {
       color: #aaaaaa;
       font-size: 14px;
       font-weight: 500;
-      font-family: "Crimson Text", serif; }
+      font-family: "Montserrat", sans-serif; }
     .register_form input::-webkit-input-placeholder {
       color: #aaaaaa;
       font-size: 14px;
       font-weight: 500;
-      font-family: "Crimson Text", serif; }
+      font-family: "Montserrat", sans-serif; }
   .register_form .primary-btn {
     width: 100%;
     border-radius: 0;
@@ -1189,14 +1189,14 @@ button:focus {
   .blog_info .post_tag {
     padding-bottom: 20px; }
     .blog_info .post_tag a {
-      font: 300 14px/21px "Crimson Text", serif;
+      font: 300 14px/21px "Montserrat", sans-serif;
       color: #222222; }
       .blog_info .post_tag a:hover {
         color: #777777; }
       .blog_info .post_tag a.active {
         color: #FE9A00; }
   .blog_info .blog_meta li a {
-    font: 300 14px/20px "Crimson Text", serif;
+    font: 300 14px/20px "Montserrat", sans-serif;
     color: #777777;
     vertical-align: middle;
     padding-bottom: 12px;
@@ -1660,7 +1660,7 @@ button:focus {
   .contact_info .info_item h6 {
     font-size: 16px;
     line-height: 24px;
-    color: "Crimson Text", serif;
+    color: "Montserrat", sans-serif;
     font-weight: bold;
     margin-bottom: 0px;
     color: #222222; }
@@ -1677,7 +1677,7 @@ button:focus {
     line-height: 26px;
     color: #999;
     border: 1px solid #eeeeee;
-    font-family: "Crimson Text", serif;
+    font-family: "Montserrat", sans-serif;
     border-radius: 0px;
     padding-left: 20px; }
     .contact_form .form-group .form-control:focus {
@@ -1728,7 +1728,7 @@ button:focus {
       text-align: center;
       color: #00aee0;
       padding-bottom: 10px;
-      font-family: "Crimson Text", serif; }
+      font-family: "Montserrat", sans-serif; }
     .modal-message .modal-dialog .modal-content .modal-header p {
       display: block; }
 
@@ -2936,7 +2936,7 @@ h6 {
   line-height: 40px;
   padding: 0px 28px;
   font-size: 14px;
-  font-family: "Crimson Text", serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
@@ -2954,7 +2954,7 @@ h6 {
   padding: 0px 32px;
   font-size: 13px;
   font-weight: 500;
-  font-family: "Crimson Text", serif;
+  font-family: "montserrat", sans-serif;
   color: #222222;
   line-height: 34px;
   display: inline-block; }
@@ -3355,25 +3355,25 @@ h6 {
 
 .social a{
   padding-right: 15px;
-  color: #6AA84E;
+  /* color: #6AA84E; */
 }
 
   .footer-area {
         padding: 10px;
-        background-color: white;
+        background-color: rgb(67, 67, 67);;
         /* border-bottom: 5px solid #ffc900; */
     }
 
     #services {
       padding: 50px 0;
-      background: #6AA84E;
-      color: #fff;
+      /* background: #6AA84E; */
+      /* color: #fff; */
     }
     #services .service-desc {
       margin: 10px 10px 20px;
     }
     #services h2 {
-      color: #fff;
+      /* color: #fff; */
     }
     #services .section-title h2::after {
       position: absolute;
@@ -3392,16 +3392,16 @@ h6 {
       padding: 40px 0;
       background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
       border-radius: 50%;
-      color: #fff;
+      /* color: #fff; */
       box-shadow: 10px 10px 10px rgba(0,0,0,.05);
     }
     #services h3 {
       font-weight: 500;
       padding: 5px 0;
-      color: #fff;
+      /* color: #fff; */
     }
     #services p {
-      color: rgba(255,255,255,.75);
+      /* color: rgba(255,255,255,.75); */
     }
     #services .service-desc {
       margin-bottom: 40px;
