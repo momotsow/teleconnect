@@ -132,6 +132,9 @@ button:focus {
 .gradient-bg3, .single_feature:nth-child(2), .single_course .course_content .course_meta .price.df_color2 {
   background: #FE9A00;
 }
+.gradient-bg3, .single_feature:nth-child(3), .single_course .course_content .course_meta .price.df_color2 {
+  background: #6AA84E;
+}
 
 .gradient-color, .blog_details h2:hover {
   background: #FE9A00;
