@@ -3161,6 +3161,10 @@ h6 {
   .footer-bottom {
     text-align: center; }
 
+    .footer_link{
+      color: white;
+    }
+
   .footer-bottom .footer-social {
     text-align: center;
     margin-top: 15px; }
@@ -3563,6 +3567,7 @@ h6 {
 
       .footer_nav ul{
         display: flex;
+        flex-direction: row;
         list-style: none;
         text-align: left ;
         justify-content: space-between;
@@ -3570,7 +3575,12 @@ h6 {
       @media (max-width: 575px) {
         .footer_nav ul {
             flex-direction: column;
+        padding-left: 15px;
+
         }
+      }
+      .footer_item {
+        margin-right: 10px;
       }
       
       .animated-info {
@@ -3606,22 +3616,22 @@ h6 {
         top: 0;
         right: 0;
         left: 0;
-        animation: BottomTotop 15s linear infinite 0s;
+        animation: BottomTotop 18s linear infinite 0s;
       }
       .animated-item:nth-child(2) {
-        animation-delay: 1s;
-      }
-      .animated-item:nth-child(3) {
         animation-delay: 3s;
       }
-      .animated-item:nth-child(4) {
+      .animated-item:nth-child(3) {
         animation-delay: 6s;
       }
-      .animated-item:nth-child(5) {
+      .animated-item:nth-child(4) {
         animation-delay: 9s;
       }
-      .animated-item:nth-child(6) {
+      .animated-item:nth-child(5) {
         animation-delay: 12s;
+      }
+      .animated-item:nth-child(6) {
+        animation-delay: 15s;
       }
       /* .animated-item:nth-child(7) {
         animation-delay: 15s;
@@ -3778,3 +3788,14 @@ h6 {
 .contact_page{
   border: black 1px solid;
 }
+
+.sidepic {
+  width: 100%;
+  height: auto;
+}
+
+/* @media (max-width: 575px) {
+  .sidepic {
+      height: 50%;
+  }
+} */
