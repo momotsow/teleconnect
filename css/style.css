@@ -25,7 +25,7 @@ h6 {
   color: #222222; }
   p {
     font-family: "Montserrat", sans-serif;
-    text-align: center; }
+    text-align: left; }
 
 .list {
   list-style: none;
@@ -895,6 +895,7 @@ button:focus {
   transition: all 0.3s ease 0s; }
   .single_fact h4 {
     color: #000;
+    text-transform: uppercase;
     margin-bottom: 20px; }
   .single_fact p {
     margin: 0px; }
@@ -3646,7 +3647,7 @@ h6 {
 }
 
 .read-more {
-  background: lightgrey;
+  
 }
 
 .main_screen
@@ -3654,6 +3655,7 @@ h6 {
   background: rgb(67, 67, 67);
 }
 
-#text{
-  display:none;
-  }
+.toggle-text {
+  display: none;
+  /* background: lightgrey; */
+}
