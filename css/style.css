@@ -2951,7 +2951,7 @@ h6 {
 
   .header_area + section, .header_area + row, .header_area + div {
     margin-top: 0px;
-    padding-top: 71px; }
+    padding-top: 150px; }
 
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px; }
@@ -3030,7 +3030,7 @@ h6 {
 
   .header_area + section, .header_area + row, .header_area + div {
     margin-top: 0px;
-    padding-top: 71px; }
+    padding-top: 150px; }
 
   .home_banner_area .banner_inner .banner_content h2 {
     font-size: 40px;
@@ -3575,4 +3575,23 @@ h6 {
 
 .points{
   font-size: 16px;
+}
+
+.corona {
+  width: 100%; 
+  background-color: #FE9A00; 
+  padding: 10px 0px 10px 0px; 
+  text-align: center; 
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .corona {
+      margin-top: 40px;
+  }
+}
+
+.corona-text{
+  text-align: center; 
+  background-color: #FE9A00;
 }
