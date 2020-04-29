@@ -900,6 +900,8 @@ button:focus {
   .single_fact h4 {
     color: #000;
     text-transform: uppercase;
+    font-weight: 900;
+    font-size: 26px;
     margin-bottom: 20px; }
   .single_fact p {
     margin: 0px; }
@@ -3520,27 +3522,21 @@ h6 {
   overflow: hidden;
   background: #f4f5f9; }
   .keep-touch h2 {
-    /* font: 600 36px/1 "Source Sans Pro"; */
     margin: 0 0 20px;
     text-transform: uppercase;
     color: #000; }
   .keep-touch p {
-    /* font: 400 14px/25px "Source Sans Pro"; */
     margin-bottom: 0; }
   .keep-touch--white {
     background: #ffffff;
-    /* -webkit-box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2); */
-    /* box-shadow: 0 2px 5px rgba(173, 173, 173, 0.2); */
     padding: 20px;
     text-align: left;
     height: 100%;
     border-radius: 4px; }
     .keep-touch--white h4 {
-      /* font: 700 24px/1 "Source Sans Pro"; */
       margin: 0 0 30px;
       color: #000; }
     .keep-touch--white p {
-      /* font: 400 18px "Open Sans"; */
       margin: 0 0 70px; }
       .keep-touch--white p:last-child {
         margin-bottom: 0; }
@@ -3552,7 +3548,7 @@ h6 {
       border: 0;
       border-bottom: 1px solid #e5e5e5;
       margin-bottom: 15px;
-      font: 700 14px "Open Sans";
+      font-size: 15px;
       outline: none;
       height: 50px;
       color: #000; }
