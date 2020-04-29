@@ -1,37 +1,31 @@
 <?php
 
-    $to = "skhibela.tm@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+header('Access-Control-Allow-Origin: *');
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
-    $subject = "You have a message from your website"
-
-    $logo = 'img/logo.png';
-    $link = '#';
-
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Express Mail</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='{$link}'><img src='{$logo}' alt=''></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> {$name}</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> {$from}</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> {$csubject}</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>{$cmessage}</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
-
-    $send = mail($to, $subject, $body, $headers);
-
+// Check for empty fields
+if(empty($_POST['name'])      ||
+   empty($_POST['email'])    ||
+   empty($_POST['phone'])     ||
+   empty($_POST['province'])  ||
+   empty($_POST['services'])   ||
+   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL))
+   {
+   echo "No arguments Provided!";
+   return false;
+   }
+   
+$name = strip_tags(htmlspecialchars($_POST['name']));
+$email_address = strip_tags(htmlspecialchars($_POST['email']));
+$phone = strip_tags(htmlspecialchars($_POST['phone']));
+$province = strip_tags(htmlspecialchars($_POST['province']));
+$message = strip_tags(htmlspecialchars($_POST['services']));
+   
+// Create the email and send the message
+$to = 'enquires@teleconnect.co.za'; 
+$email_subject = "Website Quote Form:  $name";
+$email_body = "You have received a new message from your website Quote form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\n\n\nServices: $servicesPhone: $phone\n\nMessage:\n$message";
+$headers = "From: enquires@teleconnect.co.za\n";
+$headers .= "Reply-To: $email_address";   
+mail($to,$email_subject,$email_body,$headers);
+return true;         
 ?>

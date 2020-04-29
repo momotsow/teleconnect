@@ -400,11 +400,11 @@
 					<form class="form_area" id="myForm" action="mail.html" method="post">
 						<div class="row">
 							<div class="col-lg-12 form_group">
-								<input name="Name" placeholder="Your Name" required="" type="text">
-								<input name="Phone" placeholder="Your Phone Number" required="" type="tel">
-								<input name="Email" placeholder="Your Email Address" required="" type="email">
+								<input name="Name" placeholder="Your Name" id="name" required="" type="text">
+								<input name="Phone" placeholder="Your Phone Number" id="phone" required="" type="tel">
+								<input name="Email" placeholder="Your Email Address" id="email" required="" type="email">
 								 <div class="form-group">
-									<select class="form-control">
+									<select class="form-control" id="province">
 										<option class="hidden"  selected disabled>Province</option>
 										<option>Gauteng</option>
 										<option>Mpumalanga</option>
@@ -418,7 +418,7 @@
 									</select>
 								</div>
 								<br>
-								<div class="form-group check">
+								<div class="form-group check" id="services">
 									<p>What are you interested in?</p>
 										<label class="cont">Connectivity Solutions
 										<input type="checkbox">
