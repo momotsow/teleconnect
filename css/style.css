@@ -3378,8 +3378,10 @@ h6 {
       
       .animated-info {
         display: inline-block;
+        border: white solid;
         vertical-align: top;
         margin-top: 5px;
+        height: 175px;
         min-width: 650px;
         line-height: 5em;
         position: relative;
@@ -3393,37 +3395,36 @@ h6 {
           font-weight: 100;} }
       
       .animated-item {
-        color: white;
-      }
-      
-      .animated-item {
-        border: white solid;
         font-size: 40px;
         padding: 20px;
         line-height: inherit;
         display: block;
+        color: white;
         opacity: 0;
         overflow: hidden;
         position: absolute;
         top: 0;
         right: 0;
         left: 0;
-        animation: slide-right 18s linear infinite 0s;
+        animation: slide-right 25s linear infinite 0s;
       }
       .animated-item:nth-child(2) {
-        animation-delay: 3s;
+        animation-delay: 4s;
       }
       .animated-item:nth-child(3) {
-        animation-delay: 6s;
+        animation-delay: 8s;
       }
       .animated-item:nth-child(4) {
-        animation-delay: 9s;
-      }
-      .animated-item:nth-child(5) {
         animation-delay: 12s;
       }
+      .animated-item:nth-child(5) {
+        animation-delay: 16s;
+      }
       .animated-item:nth-child(6) {
-        animation-delay: 15s;
+        animation-delay: 20s;
+      }
+      .animated-item:nth-child(7) {
+        animation-delay: 24s;
       }
       
       @keyframes slide-right {
@@ -3594,4 +3595,8 @@ h6 {
 .corona-text{
   text-align: center; 
   background-color: #FE9A00;
+}
+
+.footer-text{
+  text-align: center;
 }
