@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600|Montserrat:400,600");
+
 body {
   line-height: 25px;
   font-size: 16px;
@@ -616,13 +617,6 @@ button:focus {
             .banner_area .banner_inner .banner_content .page_link a:last-child:before {
               display: none; }
 
-.feature_area {
-  margin-top: -49em; 
-  margin-left: 127px;}
-  @media (max-width: 991px) {
-    .feature_area {
-      margin-top: 60px;
-      margin-left: 0px;} }
 
 .single_feature {
   position: relative;
