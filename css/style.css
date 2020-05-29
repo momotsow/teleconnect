@@ -3,12 +3,10 @@
 body {
   line-height: 25px;
   font-size: 16px;
-  margin: 0;;
+  margin: 0;
   overflow-x: hidden;
-<<<<<<< HEAD
   overflow-y: scroll;
-=======
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
+
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #000; }
@@ -73,7 +71,6 @@ button:focus {
     .mt--100 {
       margin-top: 0px; } }
 
-<<<<<<< HEAD
 /*::::::::::::::::::::::::::::::::::::
     Preloader
 ::::::::::::::::::::::::::::::::::::*/
@@ -158,13 +155,7 @@ button:focus {
   @media (max-width: 991px) {
     .section_gap {
       padding: 40px 0; } }
-=======
-.section_gap {
-  padding: 70px 0; }
-  @media (max-width: 991px) {
-    .section_gap {
-      padding: 60px 0; } }
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
+
 
 .section_gap_top {
   padding-top: 120px; }
@@ -240,13 +231,9 @@ button:focus {
   transition: all 0.3s ease 0s; }
   .primary-btn:hover {
     background-position: right center;
-<<<<<<< HEAD
     color: #000;
     background-color: #fff;
     border: 2px solid black;
-=======
-    color: #fff;
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
     box-shadow: none; }
 
 .overlay {
@@ -933,7 +920,7 @@ button:focus {
   .single_fact .f_icon {
     margin-bottom: 30px; }
   .single_fact:hover {
-<<<<<<< HEAD
+
     border: 1px solid rgba(255, 255, 255, 0.3); 
     /* background-color: red; */
     -webkit-transition: all 0.3s ease 0s;
@@ -941,10 +928,6 @@ button:focus {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; 
   }
-=======
-    border: 1px solid rgba(255, 255, 255, 0.3); }
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
-
     .desc_fact {
       padding-left: 15px;
       font-size: 20px;
@@ -3570,15 +3553,13 @@ h6 {
   color: #000;
   border: black 1px solid;
 }
-<<<<<<< HEAD
 #toggle:hover {
   background-position: right center;
   color: #fff;
   background-color: #000;
   border: 2px solid black;
   box-shadow: none; }
-=======
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
+
 
 .main_screen
 {
