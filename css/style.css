@@ -449,9 +449,12 @@ button:focus {
     display: flex; }
     .home_banner_area .banner_inner .container {
       vertical-align: middle;
+      text-align: center;
       align-self: center; }
     .home_banner_area .banner_inner .banner_content {
-      color: #fff; }
+      color: #fff; 
+      margin: 110px auto;
+  }
       .home_banner_area .banner_inner .banner_content h2 {
         margin-top: 0px;
         font-size: 32px;

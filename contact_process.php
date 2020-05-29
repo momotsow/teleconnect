@@ -23,19 +23,12 @@ $selectedServices = implode(' | ', $_POST['services']);
 
    
 // Create the email and send the message
-<<<<<<< HEAD
 $to = 'enquiries@TeleConnect.co.za'; 
 $email_subject = "Website's Expression of Interest Form:  $name";
 $email_body = "You have received a new message from your Website's Expression of Interest Form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nProvince: $province\n\n\n\nSelected Services: $selectedServices\n\n";
 
 $headers = "From: enquiries@TeleConnect.co.za\n";
-=======
-$to = 'enquires@teleconnect.co.za'; 
-$email_subject = "Website's Expression of Interest Form:  $name";
-$email_body = "You have received a new message from your Website's Expression of Interest Form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nProvince: $province\n\n\n\nSelected Services: $selectedServices\n\n";
 
-$headers = "From: enquires@teleconnect.co.za\n";
->>>>>>> 5fc9745c095ac439e7a9802909fda021f57a2854
 $headers .= "Reply-To: $email_address";   
 mail($to,$email_subject,$email_body,$headers);
 return true;         
